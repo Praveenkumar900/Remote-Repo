@@ -1,0 +1,5 @@
+
+.classpath
+.prohect
+node_module/
+*.class #to ignore .class files
