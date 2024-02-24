@@ -5,3 +5,4 @@ Updating directly on Remote Repo.
   
 This line is updated in Remot Repo by Praveen"
   
+Checking git pull command.
