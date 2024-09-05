@@ -1,3 +1,10 @@
+Assumption 1: The development of the Salesforce application will be carried out by developers in a Development Sandbox environment.
+Assumption 2: Changes made to the application will be deployed to the QA Environment at the end of each sprint for testing.
+Assumption 3: QA testers will have all the necessary permissions to access the QA Environment and perform thorough testing.
+Assumption 4: Changes will only be deployed to the UAT (User Acceptance Testing) environment after successful completion of QA testing.
+Assumption 5: Once the application passes UAT testing, it will be deployed to the Production environment.
+
+
 Open Issues
 This section provides an overview of the open issues that have been identified during the development and testing phases of the project. Each issue is categorized based on its priority, environment, and assigned developer.
 
