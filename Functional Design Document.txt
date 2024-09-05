@@ -1,3 +1,5 @@
+This section describes the assumptions, open issues, and closed issues related to the development of the Salesforce application. Assumptions outline the underlying conditions and expectations that influence the design and implementation of the system. Open issues represent outstanding tasks or problems that require resolution, while closed issues detail those that have been successfully addressed.
+
 Assumption 1: The development of the Salesforce application will be carried out by developers in a Development Sandbox environment.
 Assumption 2: Changes made to the application will be deployed to the QA Environment at the end of each sprint for testing.
 Assumption 3: QA testers will have all the necessary permissions to access the QA Environment and perform thorough testing.
