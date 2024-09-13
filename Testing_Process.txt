@@ -1,0 +1,32 @@
+Testing Process
+Overview
+This section outlines the testing process for our project, aligning with the Agile methodology and specifically using the Kanban board to track User Stories through their various stages.
+
+Testing Phases
+User Story Movement:
+
+In Progress: The development team is actively working on the User Story.
+QA: Once development is complete, the User Story is moved to QA for testing.
+QA Completed: Testing is finished, and the User Story is ready for UAT.
+UAT: The User Story is deployed to the UAT environment for user acceptance testing.
+UAT Completed: UAT is successful, and the User Story is ready for production.
+Done: The User Story has been deployed to production.
+Testing Activities:
+
+Test Case Creation:
+
+Scenario Development: Analyze the User Story's requirements to identify potential test scenarios.
+Test Case Writing: Create detailed test cases in an Excel document, covering both positive and negative scenarios.
+Test Case Review: Submit test cases for review by relevant stakeholders.
+Test Case Execution:
+
+Execution: Execute test cases in the QA sandbox.
+Defect Logging: Report failed test cases as defects in Jira, assigning them to the development team.
+Evidence Collection: Capture screenshots as evidence for passed test cases and upload them to Jira.
+Issue Tracking:
+
+Monitoring: Track the status of defects and retest fixed issues.
+Closure: Move issues to "Done" when they are resolved and retested successfully.
+Sprint Cycle and Deployment
+Sprint Duration: Our project follows a 2-week sprint cycle.
+Deployment: At the end of each sprint, User Stories that have passed UAT testing are deployed to production. This marks the completion of the sprint and the start of a new one.
