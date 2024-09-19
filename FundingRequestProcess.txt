@@ -1,0 +1,33 @@
+Funding Request Process
+
+1. Prerequisites
+Contact Record: A Contact record must exist for the individual associated with the Funding Request.
+Account Record: An Account record must exist for the organization applying for funding.
+Funding Program: A Funding Program record must be defined.
+2. Creating a Funding Request
+Access Salesforce: Log in to the Salesforce organization.
+Navigate to Major Gifts Application: Switch to the "Major Gifts" application using the App Launcher.
+Create a New Funding Request:
+Click on the "Funding Requests" object.
+Click on the "New" button.
+Fill in the required fields:
+Funding Request Name: This will be auto-generated based on NPSP settings.
+Funding Program: Select the appropriate Funding Program.
+Applying Organization: Choose the relevant Account record.
+Applying Contact: Select the associated Contact record.
+Click on "Save."
+3. Initial Status and Inviting Applicant
+Draft Status: The newly created Funding Request will be in "Draft" status.
+Inviting Applicant: Click on the "Invite Applicant" button to send an email to the Applying Contact.
+Status Update: After sending the email, the Funding Request status will change to "Invited."
+4. Grantee Portal Interaction
+Grantee Portal Access: The Applying Contact will use the link in the email to create an account in the Grantee Portal.
+Information Submission: The Grant Seeker can modify fields, upload required documents, and request additional information through the Grantee Portal.
+5. Review and Approval Process
+Stage Transitions: The Funding Request will progress through different stages: Submitted, Screen and Qualify, Awarded, or Rejected.
+Requirements and Reviews: The process involves creating Requirements, Action Plans, and Reviews.
+Award or Rejection: If the Funding Request meets all requirements and passes reviews, it will be "Awarded." Otherwise, it will be "Rejected."
+6. Disbursements
+Automatic Creation: Upon Awarding a Funding Request, a "New Disbursement" creation window will appear automatically.
+Manual Creation: Disbursements can also be created manually by clicking on the "Disbursements" tab.
+Disbursement Information: The "Disbursement Information" section on the Funding Request displays details such as Requested Amount, Awarded Amount, Paid Disbursements, Unpaid Disbursements, Available Disbursements, and Total Cancelled. These fields are automatically calculated based on the created Disbursements.
