@@ -1,0 +1,41 @@
+Creating Opportunities through Matching Gift Form
+Overview
+
+The Matching Gift Form in Salesforce provides a streamlined process for creating Opportunity records. By navigating to the Funding Program Portal and completing the form, users can initiate donations and corresponding matching gift opportunities.
+
+Steps Involved
+
+Accessing the Matching Gift Form:
+
+Log in to Salesforce.
+Click on the Settings icon in the top right corner.
+Select "Setup."
+Search for "All Sites" in the Quick Find.
+Click on the URL link for the "Funding Program Portal."
+Navigate to the "Matching Gift Form" tab.
+Selecting a Contact:
+
+Search for the desired Contact by name or email in the "Select Email" window.
+Complete the authentication process if required.
+Completing the Educational Matching Gift Form:
+
+Fill in the required fields for Steps 1, 2, and 3:
+Step 1: Search and select the Account record.
+Step 2: Choose the "Restriction Type" (Unrestricted, Restricted to). If "Restricted to" is selected, provide details in the corresponding field.
+Step 3: Select the "Payment Option" (Payroll Deduction, Contribution made directly to Institution, Flex Fund/Donor Advised Fund, Check donation).
+Filling in Payment Option Details:
+
+The specific fields required will depend on the chosen Payment Option:
+Payroll Deduction: Fill in the single donation amount and recurring donation amount.
+Contribution made directly to Institution: Fill in the contribution amount.
+Flex Fund or Donor Advised Fund: Fill in the contribution amount.
+Check donation: Fill in the check amount and check number.
+Submitting the Form:
+
+Once all fields are completed, click "Submit."
+This will create an Opportunity record in Salesforce, along with a corresponding Matching Gift Opportunity.
+Additional Considerations:
+
+Attachments: Upload relevant files using the "Upload Files" button.
+Recurring Donations: Set up recurring donations by filling in the second field in the Payroll Deduction Payment Option.
+Matching Gift Opportunity: A Matching Gift Opportunity will be created automatically under the Donation Opportunity.
