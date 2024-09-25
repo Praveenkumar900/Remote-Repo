@@ -1,0 +1,32 @@
+Creating Recurring Donations
+Recurring donations are a valuable tool for nonprofit organizations as they provide a steady stream of income. In Salesforce, creating a recurring donation requires a few essential steps.
+
+Prerequisites:
+
+Contact Record: This represents the donor who will be making the recurring donation.
+Account Record: This is the organization or company associated with the donor.
+Steps:
+
+Navigate to the Recurring Donations Object:
+
+Locate and access the "Recurring Donations" object within your Salesforce instance. This may be found under the "App Launcher" or within a custom app.
+Create a New Recurring Donation:
+
+Click the "New" button to create a new recurring donation record.
+Fill in the required fields:
+Donor Type: Select "Account" as all recurring donations should be associated with an account.
+Account: Choose the account associated with the donor.
+Contact: Select the contact record representing the donor.
+Amount: Enter the amount of each recurring donation.
+Recurring Type: Choose either "Open" for an indefinite duration or "Fixed" to specify a number of planned installments.
+Recurring Period: Select the frequency of donations (e.g., monthly, quarterly). If you choose "Monthly," you can further customize the day of the month.
+Payment Method: Indicate the preferred payment method (e.g., payroll deduction, partner draw).
+Save the Recurring Donation:
+
+Once you've completed the required fields, click the "Save" button to create the recurring donation record.
+Understanding Recurring Donation Details:
+
+Opportunities: Salesforce will automatically create a series of opportunities associated with the recurring donation. These opportunities represent each individual installment.
+Status: The status of the recurring donation can be "Active," "Lapsed," "Closed," or "Paused."
+Upcoming Installments: The record will display information about the next scheduled donation and any future installments.
+By following these steps, you can effectively create recurring donations in Salesforce and manage your organization's ongoing revenue streams.
